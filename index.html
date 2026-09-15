@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vexa AI — Mr. Hazil's Personal Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars"></div>
+  <main class="app">
+    <header>
+      <div class="brand"><span class="dot"></span> VEXA</div>
+      <div class="status">● ONLINE</div>
+    </header>
+
+    <section class="hero">
+      <div class="orb-wrap" id="orb">
+        <div class="orb"></div>
+        <div class="ring ring1"></div>
+        <div class="ring ring2"></div>
+        <div class="ring ring3"></div>
+      </div>
+      <h1>Vexa</h1>
+      <p class="subtitle">Mr. Hazil's Personal AI Assistant</p>
+      <p id="state">Ready when you are.</p>
+    </section>
+
+    <section class="chat" id="chat">
+      <div class="message vexa">Hello, Mr. Hazil. I'm Vexa. Tap the microphone and talk to me.</div>
+    </section>
+
+    <section class="controls">
+      <button id="mic" class="mic" aria-label="Start voice input">🎙️</button>
+      <input id="textInput" type="text" placeholder="Type a message..." autocomplete="off">
+      <button id="send">Send</button>
+    </section>
+
+    <div class="quick">
+      <button data-msg="Hello Vexa">Hello</button>
+      <button data-msg="What can you do?">What can you do?</button>
+      <button data-msg="Tell me the time">Time</button>
+    </div>
+
+    <footer>
+      <span>Vexa Web Prototype V1</span>
+      <span>Voice + AI-ready architecture</span>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
